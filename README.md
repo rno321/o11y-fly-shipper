@@ -10,7 +10,7 @@ This application uses the official Fly.io log shipper Docker image to collect an
 
 The application is configured via `fly.toml`:
 
-- **App Name**: o11y
+- **App Name**: fly_shipper
 - **Primary Region**: ewr (Newark)
 - **Memory**: 1GB
 - **CPU**: 1 shared CPU
