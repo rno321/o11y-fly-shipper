@@ -12,8 +12,8 @@
 # fi
 
 # Set Fly.io secrets for the o11y app
-fly secrets set "ORG=$ORG" -a o11y;
-# fly secrets set "ACCESS_TOKEN=$FLY_ACCESS_TOKEN" -a o11y;
+fly secrets set ORG=$ORG -a o11y;
+fly secrets set "ACCESS_TOKEN=$ACCESS_TOKEN" -a o11y;
 fly secrets set "LOKI_URL=$LOKI_URL" -a o11y;
 fly secrets set "LOKI_USERNAME=$LOKI_USERNAME" -a o11y;
 fly secrets set "LOKI_PASSWORD=$LOKI_PASSWORD" -a o11y;
